@@ -1,0 +1,80 @@
+/* Códigos Gerais: códigos que servem para toda estrutura HTML*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Cabeãlho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#nav li a:hover {
+  /*Esse código é para mudar os links do cabeçalho quando passa o mouse*/
+  text-decoration: none;
+  color: #919191;
+}
+
+/* Códigos para o body */
+section {
+  padding: 20px;
+  align-items: center;
+  background-color: #ccc;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+/* #sobreMim,
+#formacao,
+#portfolio {
+  align-items: center;
+  background-color: #ccc;
+  margin: 20px;
+  border-radius: 20px;
+} */
+
+.formatacao {
+  text-align: inherit;
+  padding: 0% 20%;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Códigos para o footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
